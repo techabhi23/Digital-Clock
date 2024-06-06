@@ -1,0 +1,65 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+  width:100% ;
+  min-height: 100vh;
+  background: linear-gradient(40deg,#883489,#000,rgb(157, 203, 208));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:lightgoldenrodyellow;
+}
+
+.clock{
+  width: 9rem;
+  height: 9rem;
+  background: linear-gradient(45deg,#9d5cf1,#000);
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: 30px;
+  border-radius: 30%;
+  box-shadow: -9px -5px 26px -3px;
+}
+
+span{
+  font-size: 60px;
+}
+/* 
+#unit{
+  display: block;
+ 
+   position: absolute;
+}
+#hrs{
+  width: 20px;
+  height: 20%;
+   font-size: 20px;
+   bottom: 30px;
+   left: 90p;
+  text-align: end;
+} */
+
+/* .hours{
+  position:relative;
+  bottom: px;
+
+} */
+#hours,#minutes,#seconds{
+  position: relative;
+ right: -26px;
+}
+#hrs,#mnt,#sec{
+  position: relative;
+  bottom: -2px;
+  font-size: 12px;
+  bottom: -45px;
+  left: -47px;
+}
